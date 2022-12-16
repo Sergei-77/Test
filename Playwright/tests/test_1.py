@@ -7,7 +7,7 @@ def test_request_status_code():
     r = requests.get(url=url, params=params)
     assert r.status_code == 200
     
-def test_request_ya():
+def test_request_yandex():
     url = 'https://ya.ru'
     r = requests.get(url=url)
     assert r.status_code == 200
